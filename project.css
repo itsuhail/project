@@ -1,0 +1,126 @@
+.head {
+    background-color: black;
+    color: bisque;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
+
+.img {
+    width: 400px;
+    height: 250px;
+}
+
+.list {
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ses1 {
+    width: 33%
+}
+
+.ses2 {
+    width: 33%
+}
+
+.ses3 {
+    width: 34%
+}
+
+.maindiv {
+    display: flex;
+}
+
+.more {
+    font-size: 30px;
+    background: rgb(99, 52, 19);
+    color: rgb(217, 229, 220)
+}
+.rush{
+    width:33%;
+    float:left;
+
+}
+.mission{
+    width:33%;
+    float:left;
+}
+.dark{
+    width:33%;
+    float:left;
+
+}
+.ui{
+    width:350px;
+    height:300px;
+}
+.moviepart{
+    background-color: black;
+}
+.mission:hover{
+     transition:translateY(-10px);
+    transition-duration: 0.9s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+}
+.rush:hover{
+     transition:translateY(-10px);
+    transition-duration: 0.9s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+}
+.dark:hover{
+     transform:translateY(-18px);
+    transition-duration: 0.4s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+    transition-delay:0.2s;
+}
+.mission:hover{
+     transform:translateY(-18px);
+    transition-duration: 0.4s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+    transition-delay:0.2s;
+}
+.rush:hover{
+     transform:translateY(-18px);
+    transition-duration: 0.4s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+    transition-delay:0.2s;
+}
+.button:hover{
+    background: darkblue;
+    box-shadow: 0 0 22px #05ed2c82;
+    color:#fff;
+}
+
+.jumanji{
+    width:33%;
+    float:left;
+}
+.godfather{
+    width:33%;
+    float:left;
+}
+.intrastellar{
+    width:33%;
+    float:left;
+}
+.jumanji:hover{
+     transform:translateY(-18px);
+    transition-duration: 0.4s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+    transition-delay:0.2s;
+}
+.godfather:hover{
+     transform:translateY(-18px);
+    transition-duration: 0.4s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+    transition-delay:0.2s;
+}
+.intrastellar:hover{
+     transform:translateY(-18px);
+    transition-duration: 0.4s;/*transition-duration: How long the animation should take (e.g., 0.3s for 0.3 seconds)*/
+    transition-delay:0.2s;
+}
+.secondmovie{
+    margin-top:30px;;
+}
